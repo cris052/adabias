@@ -3,7 +3,7 @@ import torch
 from torch.optim import Optimizer
 
 
-class AdaBound(Optimizer):
+class AdaBais(Optimizer):
     """Implements AdaBound algorithm.
     It has been proposed in `Adaptive Gradient Methods with Dynamic Bound of Learning Rate`_.
     Arguments:
